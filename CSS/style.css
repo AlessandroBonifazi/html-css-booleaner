@@ -1,18 +1,27 @@
 header {
     height: 100px;
-    background-color: rgb(97, 97, 104);
     position: relative;
+    background-image: url("../img/pattern.png"); 
+    background-size: contain;
+    background-color: rgb(118 155 241)
+   
 }
 
 main {
-    background-color: blue;
+    background-color: white;
 }
-
-
 
 #logo {
     height: 50px;
     position: absolute;
-    left: 0%;
-    bottom: 0%;
+    left: 5px;
+    bottom: 10px;
+}
+
+#int {
+    font-size: 20px;
+}
+
+#blue {
+    color: rgb(118 155 241);
 }
