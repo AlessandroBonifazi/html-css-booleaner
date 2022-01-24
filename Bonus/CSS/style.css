@@ -1,3 +1,8 @@
+body {
+    margin: auto;
+    position: relative;
+}
+
 header {
     height: 100px;
     position: relative;
@@ -8,7 +13,8 @@ header {
 }
 
 main {
-    background-color: white;
+    position: absolute;
+    left: 22%;
     width: 55%;
 }
 
