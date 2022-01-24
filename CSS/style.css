@@ -2,15 +2,20 @@ header {
     height: 100px;
     position: relative;
     background-image: url("../img/pattern.png"); 
-    background-size: contain;
+    background-position: top;
+    background-size: 20%;
     background-color: rgb(118 155 241)
    
 }
 
 main {
     background-color: white;
+    width: 55%;
 }
 
+h1 {
+    font-size: 40px;
+}
 #logo {
     height: 50px;
     position: absolute;
@@ -24,4 +29,40 @@ main {
 
 #blue {
     color: rgb(118 155 241);
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#grey {
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#first-row {
+    background-color: rgb(64 117 223);
+    color: white;
+}
+
+.dark-row {
+    background-color: rgb(150, 181, 241);
+}
+
+.light-row {
+    background-color: rgb(217 234 252);
+}
+
+.container {
+    position: relative;
+}
+
+.lorem {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
