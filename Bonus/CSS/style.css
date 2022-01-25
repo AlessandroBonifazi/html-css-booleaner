@@ -13,8 +13,7 @@ header {
 }
 
 main {
-    position: absolute;
-    left: 22%;
+    margin: auto;
     width: 55%;
 }
 
