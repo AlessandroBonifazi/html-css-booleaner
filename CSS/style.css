@@ -22,7 +22,7 @@ h1 {
     bottom: 10px;
 }
 
-#int {
+#written-by {
     font-size: 20px;
 }
 
@@ -38,6 +38,14 @@ h1 {
     color: gray;
     font-size: 20px;
     font-weight: bold;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.table-description {
+    width: 50%;
 }
 
 #first-row {
